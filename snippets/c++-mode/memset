@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: memset
+# key: memset
+# binding: direct-keybinding
+# --
+memset($1,$0,sizeof($1));

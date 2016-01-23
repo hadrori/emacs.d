@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: t -*-
+# name: all
+# key: all
+# binding: direct-keybinding
+# --
+begin($1),end($1)$0

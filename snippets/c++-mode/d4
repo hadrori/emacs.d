@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: d4
+# key: d4
+# binding: direct-keybinding
+# --
+const int di[] = {0,1,0,-1}, dj[] = {1,0,-1,0};

@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: pb
+# key: pb
+# binding: direct-keybinding
+# --
+push_back($1)$0
