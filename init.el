@@ -1,10 +1,15 @@
-;; load ~/.emacs.d/site-list/
-(let ((default-directory (expand-file-name "~/.emacs.d/site-lisp")))
-  (add-to-list 'load-path default-directory)
-  (if (fboundp 'normal-top-level-add-subdirs-to-load-path)
-      (normal-top-level-add-subdirs-to-load-path)))
+;; cask
+(require 'cask)
+(cask-initialize)
+
+;; use-package
+(require 'use-package)
+
+;; pallet
+(use-package pallet)
 
 ;; init-loader
-(require 'init-loader)
-(setq init-loader-show-log-after-init 'error-only)
-(init-loader-load "~/.emacs.d/inits")
+(use-package init-loader
+  :config
+  (setq init-loader-show-log-after-init 'error-only)
+  (init-loader-load "~/.emacs.d/inits"))
