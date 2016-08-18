@@ -13,3 +13,4 @@
 (depends-on "go-mode")
 (depends-on "coffee-mode")
 (depends-on "markdown-mode")
+(depends-on "cuda-mode")
