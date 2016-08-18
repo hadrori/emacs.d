@@ -6,3 +6,4 @@
 
 (add-hook 'c++-mode-hook 'hadrori-c-mode-hook)
 (add-hook 'c-mode-hook 'hadrori-c-mode-hook)
+(add-hook 'cuda-mode-hook 'hadrori-c-mode-hook)
