@@ -1,5 +1,5 @@
 ;; cask
-(require 'cask)
+(require 'cask "~/.cask/cask.el")
 (cask-initialize)
 
 ;; use-package
