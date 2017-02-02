@@ -3,9 +3,10 @@
 
 (custom-theme-set-faces
  'fox
+
  ;; background, character, cursor
  '(cursor ((t (:foreground "#F8F8F0"))))
- '(default ((t (:foreground "#F8F8F2"))))
+ '(default ((t (:background "#1B1D1E" :foreground "#F8F8F2"))))
 
  ;; region
  '(region ((t (:background "#403D3D"))))
