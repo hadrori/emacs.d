@@ -21,7 +21,7 @@
  '(minibuffer-prompt ((t (:foreground "#8CD3F6" :background nil))))
 
  ;; linum
- '(linum ((t (:foreground "#BCBCBC" :background "#444444"))))
+ '(linum ((t (:foreground "#BCBCBC" :background nil))))
 
  ;; highlight
  '(highlight ((t (:foreground "#000000" :background "#C4BE89"))))
