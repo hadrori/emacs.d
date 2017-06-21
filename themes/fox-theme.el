@@ -17,6 +17,9 @@
  '(mode-line-inactive ((t (:foreground "#BCBCBC" :background "#333333"
                            :box (:line-width 1 :color "#333333")))))
 
+ ;; minibuffer
+ '(minibuffer-prompt ((t (:foreground "#8CD3F6" :background "333333"))))
+
  ;; highlight
  '(highlight ((t (:foreground "#000000" :background "#C4BE89"))))
  '(hl-line ((t (:background "#293739"))))
