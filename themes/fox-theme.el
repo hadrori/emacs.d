@@ -18,7 +18,10 @@
                            :box (:line-width 1 :color "#333333")))))
 
  ;; minibuffer
- '(minibuffer-prompt ((t (:foreground "#8CD3F6" :background "333333"))))
+ '(minibuffer-prompt ((t (:foreground "#8CD3F6" :background nil))))
+
+ ;; linum
+ '(linum ((t (:foreground "#BCBCBC" :background "#444444"))))
 
  ;; highlight
  '(highlight ((t (:foreground "#000000" :background "#C4BE89"))))
