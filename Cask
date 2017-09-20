@@ -14,3 +14,8 @@
 (depends-on "coffee-mode")
 (depends-on "markdown-mode")
 (depends-on "cuda-mode")
+
+;; rust
+(depends-on "rust-mode")
+(depends-on "racer")
+(depends-on "flycheck-rust")
