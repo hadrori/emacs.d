@@ -15,7 +15,6 @@
 (depends-on "markdown-mode")
 (depends-on "cuda-mode")
 
-;; rust
+;; Rust
 (depends-on "rust-mode")
 (depends-on "racer")
-(depends-on "flycheck-rust")
