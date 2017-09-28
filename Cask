@@ -14,6 +14,7 @@
 (depends-on "coffee-mode")
 (depends-on "markdown-mode")
 (depends-on "cuda-mode")
+(depends-on "rjsx-mode")
 
 ;; Rust
 (depends-on "rust-mode")
