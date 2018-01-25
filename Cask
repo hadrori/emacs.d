@@ -10,6 +10,7 @@
 (depends-on "haml-mode")
 (depends-on "scss-mode")
 (depends-on "haskell-mode")
+(depends-on "purescript-mode")
 (depends-on "go-mode")
 (depends-on "coffee-mode")
 (depends-on "markdown-mode")
