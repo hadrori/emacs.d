@@ -27,12 +27,24 @@
  '(highlight ((t (:foreground "#000000" :background "#C4BE89"))))
  '(hl-line ((t (:background "#293739"))))
 
+ ;; preprocessor
+ '(font-lock-preprocessor-face ((t (:foreground "#4682B4"))))
+
+ ;; buildin
+ '(font-lock-builtin-face ((t (:foreground "#4682B4"))))
+
+ ;; type
+ '(font-lock-type-face ((t (:foreground "#32CD32"))))
+
  ;; function
  '(font-lock-function-name-face ((t (:foreground "#81F7F3"))))
 
  ;; variable name
  '(font-lock-variable-name-face ((t (:foreground "#81F7F3"))))
  '(font-lock-string-face ((t (:foreground "#E6DB74"))))
+
+ ;; constant
+ '(font-lock-constant-face ((t (:foreground "#AE81BC"))))
 
  ;; special keyword
  '(font-lock-keyword-face ((t (:foreground "#FA5858"))))
