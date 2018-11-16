@@ -13,6 +13,7 @@
 (depends-on "purescript-mode")
 (depends-on "go-mode")
 (depends-on "coffee-mode")
+(depends-on "typescript-mode")
 (depends-on "markdown-mode")
 (depends-on "cuda-mode")
 (depends-on "rjsx-mode")
