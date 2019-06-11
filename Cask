@@ -12,7 +12,6 @@
 (depends-on "haml-mode")
 (depends-on "markdown-mode")
 (depends-on "scss-mode")
-(depends-on "html-mode")
 
 ;; Programming Languages
 (depends-on "haskell-mode")
